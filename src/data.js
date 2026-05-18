@@ -1,14 +1,14 @@
-export class Player {
-  constructor(name) {
-    this.name = name;
-    this.score = 0;
-  }
+const data = {
+  players: [
+    {
+      name: 'Alice',
+      score: 0,
+    },
+    {
+      name: 'Bob',
+      score: 0,
+    },
+  ],
+};
 
-  win() {
-    this.score++;
-  }
-
-  lose() {
-    this.score--;
-  }
-}
+export default data;
